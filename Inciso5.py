@@ -1,11 +1,11 @@
 from stack import Stack
 
 def respuesta5_search():
-    n = 55500000
-    n2 = 55500000 * 2
-    n3 = 55500000 * 3
-    n4 = 55500000 * 4
-    n5 = 55500000 * 5
+    n = 11050000
+    n2 = 11050000 * 2
+    n3 = 11050000 * 3
+    n4 = 11050000 * 4
+    n5 = 11050000 * 5
     
     s1 = Stack(n)
     for i in range(n):
@@ -34,11 +34,11 @@ def respuesta5_search():
     s5.search('g')
 
 def respuesta5_delete():
-    n = 55500000
-    n2 = 55500000 * 2
-    n3 = 55500000 * 3
-    n4 = 55500000 * 4
-    n5 = 55500000 * 5
+    n = 11050000
+    n2 = 11050000 * 2
+    n3 = 11050000 * 3
+    n4 = 11050000 * 4
+    n5 = 11050000 * 5
     
     s1 = Stack(n)
     for i in range(n):
@@ -65,3 +65,5 @@ def respuesta5_delete():
     s3.pop()
     s4.pop()
     s5.pop()
+
+respuesta5_search()

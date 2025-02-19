@@ -4,7 +4,7 @@ import time
 def respuesta2():
     t1 = time.time()
 
-    n = 55500000
+    n = 11050000
     s1 = Stack(n)
     for i in range(n):
         s1.push('f')
