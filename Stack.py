@@ -1,6 +1,8 @@
 '''
 Stack implementation Tortola.
+Cambios en search
 '''
+from memory_profiler import profile
 
 class Stack:
     def __init__(self, size: int):
@@ -19,6 +21,7 @@ class Stack:
         self.top += 1
         self.elements[self.top] = val
 
+    @profile
     def pop(self) -> any:
         if self.top == -1:
             print('Stack underflow')
@@ -35,3 +38,9 @@ class Stack:
             return None
 
         return self.elements[self.top]
+    
+    def search(self, busca: str) -> int:
+        for i in range(self.top, -1, -1):
+            if self.elements[i] == busca:
+                return i
+        return -1
