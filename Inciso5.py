@@ -60,10 +60,10 @@ def respuesta5_delete():
     for i in range(n5):
         s5.push('f')
     
-    s1.pop()
+    #s1.pop()
     #s2.pop()
     #s3.pop()
     #s4.pop()
-    #s5.pop()
+    s5.pop()
 
 respuesta5_delete()
