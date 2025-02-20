@@ -27,10 +27,10 @@ def respuesta5_search():
     for i in range(n5):
         s5.push('f')
     
-    s1.search('g')
-    s2.search('g')
-    s3.search('g')
-    s4.search('g')
+    #s1.search('g')
+    #s2.search('g')
+    #s3.search('g')
+    #s4.search('g')
     s5.search('g')
 
 def respuesta5_delete():
@@ -61,9 +61,9 @@ def respuesta5_delete():
         s5.push('f')
     
     s1.pop()
-    s2.pop()
-    s3.pop()
-    s4.pop()
-    s5.pop()
+    #s2.pop()
+    #s3.pop()
+    #s4.pop()
+    #s5.pop()
 
-respuesta5_search()
+respuesta5_delete()

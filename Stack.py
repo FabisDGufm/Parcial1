@@ -21,6 +21,7 @@ class Stack:
         self.top += 1
         self.elements[self.top] = val
 
+    @profile
     def pop(self) -> any:
         if self.top == -1:
             print('Stack underflow')
@@ -38,7 +39,6 @@ class Stack:
 
         return self.elements[self.top]
     
-    @profile
     def search(self, busca: str) -> int:
         for i in range(self.top, -1, -1):
             if self.elements[i] == busca:
